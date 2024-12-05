@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaussian Elimination</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Gaussian Elimination Calculator</h1>
+        <label for="matrix-size">Matrix Size (2-10):</label>
+        <input type="number" id="matrix-size" min="2" max="10" placeholder="Enter size">
+        <button onclick="generateMatrix()">Generate Matrix</button>
+        <div id="matrix-container" class="matrix-container"></div>
+        <button onclick="solveMatrix()">Solve</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
